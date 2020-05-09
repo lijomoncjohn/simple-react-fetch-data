@@ -25,6 +25,8 @@ const EmployeeList = (props) => {
                     category={emp.category}
                     empcode={emp.empcode}
                     contact={emp.contact}
+                    address={emp.address}
+                    description={emp.description}
                 />
             ))}
         </ul>

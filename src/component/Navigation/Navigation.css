@@ -1,0 +1,24 @@
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+  overflow: hidden;
+  background-color: rgb(97, 139, 255);
+}
+
+.nav-item {
+  float: left;
+}
+
+.nav-item .nav-link {
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: 15pt;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-item .nav-link:hover {
+  background-color: #111;
+}
