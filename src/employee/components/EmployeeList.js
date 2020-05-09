@@ -1,7 +1,12 @@
 import React from 'react';
 import EmployeeItem from './EmployeeItem';
+import './EmployeeList.css'
 
 const EmployeeList = (props) => {
+
+    console.log("props", props);
+    
+    
     if (props.items.length === 0) {
         return (
             <div>
@@ -16,6 +21,10 @@ const EmployeeList = (props) => {
                 <EmployeeItem
                     key={emp.id}
                     name={emp.name}
+                    image={emp.image}
+                    category={emp.category}
+                    empcode={emp.empcode}
+                    contact={emp.contact}
                 />
             ))}
         </ul>
