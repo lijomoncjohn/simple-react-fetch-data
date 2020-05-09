@@ -24,7 +24,7 @@ const EmployeeItem = (props) => {
                 onCancel={closeMapHandler}
                 contentClass="place-item__modal-content"
                 footerClass="place-item__modal-actions"
-                footer={<button onClick={closeMapHandler}>CLOSE</button>}
+                footer={<button className="button" onClick={closeMapHandler}>CLOSE</button>}
             >
                 <div className="map-container">
                     <EmployeeDetails 
